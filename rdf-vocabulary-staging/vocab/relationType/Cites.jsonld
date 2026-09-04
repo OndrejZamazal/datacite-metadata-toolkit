@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/Cites",
   "type": "Concept",
-  "prefLabel": "Cites",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "Cites"
+    },
+    {
+      "@language": "cs",
+      "@value": "cituje (co)"
+    }
+  ],
   "notation": "Cites",
   "definition": "indicates that A includes B in a citation",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "Recommended for discovery.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"ISBN\" relationType=\"Cites\">0761964312</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }

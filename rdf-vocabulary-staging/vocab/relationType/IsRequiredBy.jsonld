@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/IsRequiredBy",
   "type": "Concept",
-  "prefLabel": "IsRequiredBy",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "IsRequiredBy"
+    },
+    {
+      "@language": "cs",
+      "@value": "je požadován (čím)"
+    }
+  ],
   "notation": "IsRequiredBy",
   "definition": "Indicates A is required by B",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "May be used to indicate software dependencies.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsRequiredBy\">10.1234/8675</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }

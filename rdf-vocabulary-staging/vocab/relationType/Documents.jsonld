@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/Documents",
   "type": "Concept",
-  "prefLabel": "Documents",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "Documents"
+    },
+    {
+      "@language": "cs",
+      "@value": "dokumentuje (co)"
+    }
+  ],
   "notation": "Documents",
   "definition": "indicates A is documentation about/explaining B",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "May be used for software documentation.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"Documents\">10.1234/7836</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }

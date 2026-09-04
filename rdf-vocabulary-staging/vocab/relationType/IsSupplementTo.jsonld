@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/IsSupplementTo",
   "type": "Concept",
-  "prefLabel": "IsSupplementTo",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "IsSupplementTo"
+    },
+    {
+      "@language": "cs",
+      "@value": "je doplňkem k (čemu)"
+    }
+  ],
   "notation": "IsSupplementTo",
   "definition": "indicates that A is a supplement to B",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "Recommended for discovery.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"URN\" relationType=\"IsSupplementTo\">urn:nbn:de:0168-ssoar-13172</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }

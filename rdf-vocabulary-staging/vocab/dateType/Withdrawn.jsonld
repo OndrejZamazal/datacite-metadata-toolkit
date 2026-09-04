@@ -2,10 +2,23 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/dateType/Withdrawn",
   "type": "Concept",
-  "prefLabel": "Withdrawn",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "Withdrawn"
+    },
+    {
+      "@language": "cs",
+      "@value": "Datum odstranění"
+    }
+  ],
   "notation": "Withdrawn",
   "definition": "The date the resource is removed.",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/dateType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/dateType",
-  "scopeNote": "It is good practice to include a Description that indicates the reason for the retraction or withdrawal."
+  "scopeNote": "It is good practice to include a Description that indicates the reason for the retraction or withdrawal.",
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+  ]
 }

@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/IsCitedBy",
   "type": "Concept",
-  "prefLabel": "IsCitedBy",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "IsCitedBy"
+    },
+    {
+      "@language": "cs",
+      "@value": "je citován (čím)"
+    }
+  ],
   "notation": "IsCitedBy",
   "definition": "indicates that B includes A in a citation",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "Recommended for discovery.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsCitedBy\">10.4232/10.ASEAS-5.2-1</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }

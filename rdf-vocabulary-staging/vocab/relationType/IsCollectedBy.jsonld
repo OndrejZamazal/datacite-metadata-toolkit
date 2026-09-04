@@ -2,7 +2,16 @@
   "@context": "./context.jsonld",
   "id": "https://schema.stage.datacite.org/linked-data/vocab/relationType/IsCollectedBy",
   "type": "Concept",
-  "prefLabel": "IsCollectedBy",
+  "prefLabel": [
+    {
+      "@language": "en",
+      "@value": "IsCollectedBy"
+    },
+    {
+      "@language": "cs",
+      "@value": "je sbírán (čím)"
+    }
+  ],
   "notation": "IsCollectedBy",
   "definition": "Indicates A is collected by B",
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
@@ -10,5 +19,9 @@
   "scopeNote": "May indicate relationship between a dataset and an instrument used to collect/measure/observe data.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsCollectedBy\">10.5072/instrument</relatedIdentifier>"
+  ],
+  "modified": "2026-09-04",
+  "changeNote": [
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
   ]
 }
