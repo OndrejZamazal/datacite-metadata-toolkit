@@ -13,14 +13,23 @@
     }
   ],
   "notation": "IsObsoletedBy",
-  "definition": "Indicates A is replaced by B",
+  "definition": [
+    {
+      "@language": "en",
+      "@value": "Indicates A is replaced by B"
+    },
+    {
+      "@language": "cs",
+      "@value": "označuje, že A je nahrazen B"
+    }
+  ],
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsObsoletedBy\">10.5438/0005</relatedIdentifier>"
   ],
-  "modified": "2026-09-04",
+  "modified": "2026-09-18",
   "changeNote": [
-    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-18)"
   ]
 }

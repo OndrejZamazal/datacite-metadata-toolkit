@@ -13,14 +13,23 @@
     }
   ],
   "notation": "Describes",
-  "definition": "indicates A describes B",
+  "definition": [
+    {
+      "@language": "en",
+      "@value": "indicates A describes B"
+    },
+    {
+      "@language": "cs",
+      "@value": "označuje, že A popisuje B"
+    }
+  ],
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"Describes\">10.6084/m9.figshare.c.3288407</relatedIdentifier>"
   ],
-  "modified": "2026-09-04",
+  "modified": "2026-09-18",
   "changeNote": [
-    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-18)"
   ]
 }

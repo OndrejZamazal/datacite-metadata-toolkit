@@ -13,15 +13,24 @@
     }
   ],
   "notation": "IsCitedBy",
-  "definition": "indicates that B includes A in a citation",
+  "definition": [
+    {
+      "@language": "en",
+      "@value": "indicates that B includes A in a citation"
+    },
+    {
+      "@language": "cs",
+      "@value": "označuje, že B cituje A"
+    }
+  ],
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "scopeNote": "Recommended for discovery.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsCitedBy\">10.4232/10.ASEAS-5.2-1</relatedIdentifier>"
   ],
-  "modified": "2026-09-04",
+  "modified": "2026-09-18",
   "changeNote": [
-    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-18)"
   ]
 }

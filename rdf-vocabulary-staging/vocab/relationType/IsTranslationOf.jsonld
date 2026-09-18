@@ -13,15 +13,24 @@
     }
   ],
   "notation": "IsTranslationOf",
-  "definition": "indicates A is a translation of B",
+  "definition": [
+    {
+      "@language": "en",
+      "@value": "indicates A is a translation of B"
+    },
+    {
+      "@language": "cs",
+      "@value": "označuje, že A je překladem B"
+    }
+  ],
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "scopeNote": "When a resource is shared in one language and later translated, use IsTranslationOf to link translation to original.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsTranslationOf\">10.21384/828a-cm38</relatedIdentifier>"
   ],
-  "modified": "2026-09-04",
+  "modified": "2026-09-18",
   "changeNote": [
-    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-18)"
   ]
 }

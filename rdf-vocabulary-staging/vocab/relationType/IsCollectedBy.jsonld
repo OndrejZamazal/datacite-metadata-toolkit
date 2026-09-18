@@ -13,15 +13,24 @@
     }
   ],
   "notation": "IsCollectedBy",
-  "definition": "Indicates A is collected by B",
+  "definition": [
+    {
+      "@language": "en",
+      "@value": "Indicates A is collected by B"
+    },
+    {
+      "@language": "cs",
+      "@value": "označuje, že A je sbírán/shromažďován entitou B"
+    }
+  ],
   "inScheme": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "topConceptOf": "https://schema.stage.datacite.org/linked-data/vocab/relationType",
   "scopeNote": "May indicate relationship between a dataset and an instrument used to collect/measure/observe data.",
   "example": [
     "<relatedIdentifier relatedIdentifierType=\"DOI\" relationType=\"IsCollectedBy\">10.5072/instrument</relatedIdentifier>"
   ],
-  "modified": "2026-09-04",
+  "modified": "2026-09-18",
   "changeNote": [
-    "Added/updated Czech translation for prefLabel and/or definition (2026-09-04)"
+    "Added/updated Czech translation for prefLabel and/or definition (2026-09-18)"
   ]
 }
